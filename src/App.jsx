@@ -1,4 +1,5 @@
-import './App.css'
+import './App.css';
+import HelloWorld from './components/HelloWorld.jsx';
 
 function App() {
   const name = 'Samuel';
@@ -14,8 +15,9 @@ function App() {
       <div>
         <h2>Alterando o JSX!</h2>
         <p>Olá, {newName}</p>
-        <p>Soma: {sum(1, 2)}</p>
+        <p>Soma: {sum(1, 2)}</p> 
         <img src={url} alt="Minha imagem" />
+        <HelloWorld/>
       </div>
   )   
 }
