@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld.jsx';
 import SayMyName from './components/SayMyName.jsx';
 import Pessoa from './components/Pessoa.jsx';
 import Frase from './components/Frase.jsx';
+import List from './components/List.jsx';
 
 function App() {
   const nome = "Maria";
@@ -20,6 +21,7 @@ function App() {
           profissao="Programador"
           foto="https://via.placeholder.com/150"
         />
+        <List/>
       </div>
   )   
 }
